@@ -14,12 +14,12 @@ pip install -r requirements.txt
 ```
 
 ## For Windows
-Run the following command in the main directory:
+Run the following command in the main directory to execute:
 ```
 python ./main.py
 ```
 ## For MacOS
-Run the following command in the main directory:
+Run the following command in the main directory to execute:
 ```
 python3 ./main.py
 ```
