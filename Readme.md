@@ -24,7 +24,7 @@ Run the following command in the main directory to execute:
 python3 ./main.py
 ```
 
-#MIT License
+# MIT License
 
 Copyright (c) 2023 Sudhanshulovecode
 
