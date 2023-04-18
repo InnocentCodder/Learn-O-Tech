@@ -27,8 +27,8 @@ while True:
     print('3. For General Knowledge')
     print('4. For Maths-Magic')
     print(Fore.GREEN + "5. For Basic Science Formulas")
-    print(Fore.GREEN + "6. To play/pause music")
-
+    print(Fore.GREEN + "6. To play/pause music\n\n")
+    print(Fore.RED + "********Enter 0 to quit the Quiz********\n")
     choice = 0
 
     choice = int(input("\nEnter your choice: "))
