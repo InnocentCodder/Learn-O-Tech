@@ -26,7 +26,7 @@ python3 ./main.py
 
 # MIT License
 
-Copyright (c) 2023 Sudhanshulovecode
+Copyright (c) 2023 SudhanshuRanjan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
