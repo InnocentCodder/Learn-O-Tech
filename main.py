@@ -1,9 +1,17 @@
+#Importing quizes
+import spell
+import abbreviation
+import mm
+import gk
+import formula
+
+#Importing Pygame
 import pygame
 from pygame.locals import *
 from pygame import mixer
 from sty import Style, RgbFg, fg, bg, ef, rs
-#Custom Colors start
 
+#Custom Colors start
 fg.saffron = Style(RgbFg(255, 144, 5))
 from colorama import Fore, init
 #Custom Color End
@@ -33,15 +41,15 @@ while True:
 
     choice = int(input("\nEnter your choice: "))
     if choice == 1:
-        import spell
+        spell.main()
     if choice == 2:
-        import abbreviation
+        abbreviation.main()
     if choice == 3:
-        import gk
+        gk.main()
     if choice == 4:
-        import mm
+        mm.main()
     if choice == 5:
-        import formula
+        formula.main()
     if choice == 0:
         break
     if choice == 6:
