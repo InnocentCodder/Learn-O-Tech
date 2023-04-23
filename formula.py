@@ -12,7 +12,7 @@ print("------------------------------------------------")
 print()
 print(Fore.RED+"********Enter 5 anytime to quit the Quiz********\n")
 with open("formula.csv", 'r') as f:
-    csvreader = csv.reader(f, delimiter=',')
+    csvreader = csv.reader(f, delimiter='!')
     score = 0
 
     print("your score is", 0, "\n")
