@@ -12,7 +12,7 @@ print("------------------------------------------------")
 print()
 print(Fore.LIGHTRED_EX+"********Enter 5 anytime to quit the Quiz********\n")
 with open("gk.csv", 'r') as f:
-    csvreader = csv.reader(f, delimiter=',')
+    csvreader = csv.reader(f, delimiter='!')
     score = 0
 
     print("your score is", 0, "\n")
@@ -33,10 +33,12 @@ with open("gk.csv", 'r') as f:
             print(Fore.GREEN+"congratulations.......Correct Answer!\n")
             score = score + 1
             print(f"     ----------Your Score is: {score}----------\n")
+            print(Fore.GREEN + f"{i[6]}")
         else:
             print(Fore.RED+"Sorry... incorrect answer! :(\n")
             print(Fore.GREEN+f"The correct answer is: {i[int(i[5])-1]}\n")
             print(f"     ----------Your Score is: {score}----------\n")
+            print(Fore.GREEN + f"{i[6]}")
 
         continue
 
