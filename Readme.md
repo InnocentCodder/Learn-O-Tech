@@ -1,14 +1,22 @@
-# Welcome to Learn-O-Tech!
 
-Hi, there this is Sudhanshu and Mayank from India. We have developed a simple Python Quiz App for Students of age group 10-15. Students can use this program in their free time to get knowledge as well as entertainment. We have added calm and soothing music so that students don't get bored while playing the game.
+# Introduction
+
+Hello Everyone My name is Sudhanshu Ranjan. I am from KV Sec-8 Rohini Delhi.
+Name of my project is Learn-O-Tech. Its a mixture of tech with knowledge.
+The main objective of this project is that in the current generation childrens are
+very much distracted and in their free time they watch reels and short videos.
+But this game engage them in such a way so that they can't get bored and get
+knowledge as well.
 
 
-# Files
+# Installation
 
 To run the program simply run the following code in the terminal to install the required dependencies:
+
 ```
 pip install -r requirements.txt
 ```
+
 ```diff
 - You must have installed the latest Python in your system
 ```
@@ -24,24 +32,13 @@ Run the following command in the main directory to execute:
 python3 ./main.py
 ```
 
-# MIT License
+## Our Future aim regarding this project
 
-Copyright (c) 2023 SudhanshuRanjan
+Our quiz app is ready to use , but this app is CLI (Command Line Interface) based so it is not that much attractive to user.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+So we are gonna to make the newer version of this app which is UI (User Interface) based and convert it into a website.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The prototype of the website is:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[Learn-O-Tech](https://xd.adobe.com/embed/90298491-7a70-4f2d-a76a-acba2822127e-c57a/)
+
