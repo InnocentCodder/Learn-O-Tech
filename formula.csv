@@ -1,10 +1,10 @@
-Electric Current,Q=I/t,V = IR,I = Q/t,n = Sin i/sin r,4
-Ohm's Law,I = VR,p = RA/L,V = IR,H = I^2RT,4
-Electical Power,P = W/t,I = Q/T,n = Sin i/sin r,p = RA/L,2
-Force,F = pm,F = ma,F = mv^2r,F = mv,3
-Common Salt,NaAl,H2O,CO2,NaCl,5
-Calcium Carbonate,CaCO3,CaNO3,AgCl2,CaCO2,2
-Velocity,V = d/t,F = ma, I = V/R,d = mass/volume,2
-Density,d = distance/time,d = mass/volume,F = mass*acceleration,P = work/time,3
-acceleration,a = d/t,a = c/b,a = g/m,a = v/t,5
-Power,P = a/t,P = r/v,P = D/m,P = W/t,5
+Electric Current!Q=I/t!V = IR!I = Q/t!n = Sin i/sin r!4!Electric Current is the rate of flow of electrons in a conductor. The SI Unit of electric current is the Ampere.
+Ohm's Law!I = VR!p = RA/L!V = IR!H = I^2RT!4!Ohm’s law states that the voltage across a conductor is directly proportional to the current flowing through it, provided all physical conditions and temperatures remain constant. Its SI Unit is Ohm.
+Electical Power!P = W/t!I = Q/T!n = Sin i/sin r!p = RA/L!2!Electric power is the rate at which work is done or energy is transformed into an electrical circuit. Its SI Unit is Watt.
+Force!F = pm!F = ma!F = mv^2r!F = mv!3!Force is an external agent capable of changing a body’s state of rest or motion. It has a magnitude and a direction. The direction towards which the force is applied is known as the direction of the force, and the application of force is the point where force is applied.Its SI Unit is Newton
+Common Salt!NaAl!H2O!CO2!NaCl!5!Its is the salt which we use in our kitchen for cooking food.
+Calcium Carbonate!CaCO3!CaNO3!AgCl2!CaCO2!2!Calcium carbonate is a dietary supplement used when the amount of calcium taken in the diet is not enough. Calcium is needed by the body for healthy bones, muscles, nervous system, and heart. Calcium carbonate also is used as an antacid to relieve heartburn, acid indigestion, and upset stomach.
+Velocity!V = d/t!F = ma! I = V/R!d = mass/volume!2!It can be defined as the rate of change of the object’s position with respect to a frame of reference and time. Its SI Unit is m/s.
+Density!d = distance/time!d = mass/volume!F = mass*acceleration!P = work/time!3!The density of material shows the denseness of that material in a specific given area. A material’s density is defined as its mass per unit volume.
+acceleration!a = d/t!a = c/b!a = g/m!a = v/t!5!Acceleration is defined as The rate of change of velocity with respect to time.Its SI Unit is m/s^2
+Work!Work = Force x Distance!Work = Distance/Force!Work = Force/Distance!Work = Distance + Force!2!

@@ -32,10 +32,12 @@ with open("formula.csv", 'r') as f:
 
             print(Fore.GREEN+"congratulations.......Correct Answer!\n")
             score = score + 1
+            print(Fore.YELLOW+f"{i[6]}\n")
             print(f"     ----------Your Score is: {score}----------\n")
         else:
             print(Fore.RED+"Sorry... incorrect answer! :(\n")
             print(Fore.GREEN+f"The correct answer is: {i[int(i[5])-1]}\n")
+            print(Fore.YELLOW+f"{i[6]}\n")
             print(f"     ----------Your Score is: {score}----------\n")
 
         continue
