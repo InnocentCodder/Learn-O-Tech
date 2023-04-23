@@ -8,21 +8,22 @@ def main():
     print()
     print()
     print("------------------------------------------------")
-    print(Fore.BLUE + "Welcome to Full-Form ....Can you score full marks! :)")
+    print(Fore.BLUE + "Welcome to GK ....Kaun Banega Crorepati :)")
     print("------------------------------------------------")
     print()
-    print(Fore.LIGHTRED_EX + "********Enter 5 anytime to quit the Quiz********\n")
-    with open("abbreviation.csv", 'r') as f:
+    print(Fore.LIGHTRED_EX +
+          "********Enter 5 anytime to quit the Quiz********\n")
+    with open("gk.csv", 'r') as f:
         csvreader = csv.reader(f, delimiter='!')
         score = 0
 
         print("your score is", 0, "\n")
         for i in csvreader:
             print("================================================\n")
-            print(Fore.GREEN + "***Select option for correct spelling***\n")
-            print(Fore.RED + f"What is the full form of {i[0]}")
+            print(Fore.GREEN + "***Select option for correct option***\n")
+            print(Fore.RED + f"{i[0]}")
             print(Fore.LIGHTYELLOW_EX +
-                  f"1.{i[1]}\n2.{i[2]}\n3.{i[3]}\n4.{i[4]}\n")
+                  f"1.{i[1]}\n2.{i[2]}\n3.{i[3]}\n4.{i[4]}\n ")
 
             print("Enter correct option")
             print("1  ", "2  ", "3  ", "4\n")
@@ -38,7 +39,8 @@ def main():
                 print(Fore.GREEN + f"{i[6]}")
             else:
                 print(Fore.RED + "Sorry... incorrect answer! :(\n")
-                print(Fore.GREEN + f"The correct answer is: {i[int(i[5])-1]}\n")
+                print(Fore.GREEN +
+                      f"The correct answer is: {i[int(i[5])-1]}\n")
                 print(f"     ----------Your Score is: {score}----------\n")
                 print(Fore.GREEN + f"{i[6]}")
 
@@ -52,5 +54,6 @@ def main():
     print()
     print()
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
