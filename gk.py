@@ -13,7 +13,7 @@ def main():
     print()
     print(Fore.LIGHTRED_EX +
           "********Enter 5 anytime to quit the Quiz********\n")
-    with open("gk.csv", 'r') as f:
+    with open("gk.csv", 'r',encoding="utf8") as f:
         csvreader = csv.reader(f, delimiter='!')
         score = 0
 
